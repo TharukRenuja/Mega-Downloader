@@ -13,6 +13,9 @@ Megatron is a project that is very close to my heart - me being the whole brain 
 5. [tgcrypto](https://docs.pyrogram.org/topics/tgcrypto)
 
 The application makes use of [MongoDB](https://www.mongodb.com/) for its database, also uses [ffprobe](https://ffmpeg.org/ffprobe.html) from ffmpeg for generating media info.
+## Run on Docker 🐳
+```You can simply ignore everything below if you choose to go with Docker Method```<br>
+- [Docker Guide](DockerReadme.md)
 
 ## Cloning and running:
 1. Installation of DB
@@ -33,7 +36,7 @@ exit
 vim /etc/mongodb.conf
 
 #Add these lines at the bottom of the YAML config file:
-auth=ture
+auth=true
 
 # now save the file and once its closed restart mongo service:
 service mongod restart
